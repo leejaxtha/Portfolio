@@ -1,0 +1,204 @@
+body {
+    font-family: 'Itim', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1em;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 2em);
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+  }
+  .field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    gap: 1em;
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+  .field:hover{
+    background-color: aliceblue;
+  }
+  .field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+  }
+  
+  section {
+    display: none;
+    background-color: #f2f2f2;
+    padding: 1em;
+    text-align: center;
+    width: 50%;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+  }
+  footer p {
+    margin: 0;
+  }
+  .about-img img{
+    cursor: pointer;
+    max-width: 100%;
+    width: 16.5em;
+    height: auto;
+  
+  }
+  button{
+    width: 48px;
+    padding: 4.8px;
+    background-color: #333;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+  button:hover{
+  background-color: #636363;
+  }
+  .topic{
+    cursor: pointer;
+  }
+  .education-img{
+    padding: 0px;
+    display: flex;
+}
+.Innovative{
+  text-align: center;
+}
+.DAV{
+    padding-left: 80px;
+    text-align: center;
+}
+.Herald{
+    padding-left: 80px;
+    text-align: center;
+}
+.Innovative img{
+  max-width: 100%;
+  width: 135px;
+  height: auto;
+}
+.DAV img{
+  max-width: 100%;
+  width: 135px;
+  height: auto;
+}
+.Herald img{
+  max-width: 100%;
+  width: 135px;
+  height: auto;
+}
+.Innovative img:hover{
+  opacity: 0.6;
+}
+.DAV img:hover{
+  opacity: 0.6;
+}
+.Herald img:hover{
+  opacity: 0.6;
+}
+.part{
+  padding: 0px;
+  display: flex;
+}
+.Html{
+  text-align: center;
+}
+.Css{
+    padding-left: 2.5em;
+    text-align: center;
+}
+.JS{
+    padding-left: 2.5em;
+    text-align: center;
+}
+.Python{
+  padding-left: 2.5em;
+  text-align: center;
+}
+.Java{
+  padding-left: 2.5em;
+  text-align: center;
+}
+.Html img{
+  height: 80px;
+  width: 100px;
+}
+.Html img:hover{
+  opacity: 0.6;
+}
+.Css img{
+  height: 80px;
+  width: 100px;
+}
+.Css img:hover{
+  opacity: 0.6;
+}
+.JS img{
+  height: 80px;
+  width: 100px;
+}
+.JS img:hover{
+  opacity: 0.6;
+}
+.Python img{
+  height: 80px;
+  width: 100px;
+}
+.Python img:hover{
+  opacity: 0.6;
+}
+.Java img{
+  height: 80px;
+  width: 100px;
+}
+.Java img:hover{
+  opacity: 0.6;
+}
+p{
+  font-size: 18px;
+}
+
+
+
+
+
+
+  
+  
